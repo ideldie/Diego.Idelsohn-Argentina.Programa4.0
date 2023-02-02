@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <title>Argentina Programa 4.0 - ProyectoCV - Diego Idelsohn</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estiloscv2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Mukta&family=PT+Sans&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <script src="js/jscv.js"></script>
+    <script src="https://kit.fontawesome.com/bcdb3a357b.js" crossorigin="anonymous"></script>
+    <header>
+        <div class="name">
+            <img class="foto1" src="img/fotoperfil.jpg" alt="no se pudo cargar la imagen" title="Diego Idelsohn" />
+            <a href="http://localhost:62331/CVhtml.html" class="vuelta"><h1>Diego Idelsohn</h1></a>
+        </div>
+
+        <div id="barra">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#Info">INFORMACION PERSONAL</a></li>
+                    <li><a href="#Experiencia">EXPERIENCIA</a></li>
+                    <li><a href="#Estudios">ESTUDIOS</a></li>
+                    <li><a href="#Habilidades">HABILIDADES</a></li>
+                    <li><a href="#Contacto">CONTACTAR</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <aside>
+        <div id="Info">
+            <div>
+                <b> Diego Idelsohn</b><a href="http://localhost:54575/CVhtml.html"></a>
+                <i class="fa-solid fa-user fa-1x"></i>
+            </div>
+            <div>
+                <b> Contacto:</b> <a href="https://www.linkedin.com/in/diego-idelsohn-8764a216a" title="Linkedin" target="_blank"> <i class="fa-brands fa-linkedin fa-1x"></i></a>
+            </div>
+            <div><b> E-Mail:</b>  <a href="mailto:idel.die@gmail.com" title="idel.die@gmail.com"><i class="fa-regular fa-envelope fa-1x"></i></a> </div><div><p>idel.die@gmail.com</p></div>
+            <div><b> Residencia:</b> <a href="https://goo.gl/maps/DwS8iq9XmgE3gcAJA" title="Abrir Mapa" target="_blank"><i class="fa-sharp fa-solid fa-map-location-dot fa-1x"></i></a></div><div><p> Buenos Aires - Argentina</p></div>
+            <div><b> Teléfono</b>  <a href="https://api.whatsapp.com/send?phone=5491167228211" title="Telefono" target="_blank"><i class="fa-brands fa-whatsapp fa-1x"></i></a></div><div><p>1167228211</p></div>
+        </div>
+    </aside>
+
+    <section>
+        <span id="Experiencia"></span><h4>EXPERIENCIA LABORAL</h4>
+        <ul>
+            <li>
+                <b>2007 a la actualidad:</b> Profesor de Baterìa, dictando clases particulares de Bateria tanto en escuelas de música como en mi estudio
+            </li>
+            <li><b>2019 a la actualidad:</b> Vendedor en Follow Me Indumentaria de Egresados</li>
+            <li><b>2020 a la actualidad:</b> Asistente de Tecnologia en Creando Lideres Coaching</li>
+            <li><b>2004 - 2013:</b> Data Entry y Programador en Datamax</li>
+        </ul>
+
+        <span id="Habilidades"></span><h4>HABILIDADES</h4>
+        <ul>
+            <li><b>Resolutivo:</b> Me esfuerzo y disfruto mucho de buscar resolver cuanto problema surja, de la mejor forma posible.</li>
+            <li><b>Proactivo:</b> Me interesa mucho optimizar los procesos y me considero activo y creativo en ello.</li>
+            <li>
+                <b>Trabajo en Equipo:</b> Me gusta mucho aprender y enseñar, considero que lo estamos haciendo constantemente (a veces inconscientemente) y el trabajo en equipo es clave
+            </li>
+            <li><b>Inglés Conversacional</b></li>
+        </ul>
+
+        <span id="Estudios"></span><h4>ESTUDIOS</h4>
+        <ul>
+            <li>Actualmente estoy estudiando Desarrollo Web y Programación en Argentina Programa 4.0. Tambien estoy haciendo cursos virtuales de Programación.</li>
+            <li>Baterista Profesional egresado del ITMC en el año 2007.</li>
+            <li>Coach Ontológico Internacional egresado en 2021 en Creando Lideres Coaching.</li>
+        </ul>
+    </section>
+
+        <footer>
+            <div id="Contacto">
+                <h4>CONTACTAR</h4>
+                <div>
+                    <p>Nombre:</p>
+                    <input type="text" name="Nombre" placeholder="Ingrese su nombre" />
+                </div>
+                <div>
+                    <p>Correo Electrónico:</p>
+                    <input type="email" id="email" name="Mail" placeholder="Ingrese su E-mail" />
+                </div>
+                <div id="Mensaje">
+                    <p>Mensaje: </p>
+                    <textarea id="Mensaje" name="user_mensaje" placeholder="Deje su mensaje"></textarea>
+                </div>
+                <form onsubmit="confirmInput()" action="http://localhost:62331/CVhtml.html">
+                    <input type="submit" value="Enviar">
+                </form>
+    
+
+    </div>
+    <div id="redes">
+        <ul>
+            <li><a href="https://www.instagram.com/diego.idelsohn"> Instagram </a></li>
+            <li><a href="https://www.linkedin.com/in/diego-idelsohn-8764a216a"> Linkedin </a></li>
+            <li><a href="https://www.youtube.com/ideldie/"> Youtube </a></li>
+            <li><a href="https://www.facebook.com/ideldie/"> Facebook </a></li>
+        </ul>
+    </div>
+    </footer>
+
+</body>
+</html>
