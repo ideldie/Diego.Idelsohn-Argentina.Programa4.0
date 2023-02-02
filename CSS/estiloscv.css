@@ -1,0 +1,159 @@
+﻿
+    body {background-color: lightgray;
+          margin:0px;
+    }
+
+    header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-decoration: none;}
+
+img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+    max-height: 120px;
+    background-color: transparent;
+    
+}
+
+.foto1 {
+    margin-left: 25px;
+    float: left;
+    width: 250px;}
+
+
+    h2 {font-family: 'Mukta', sans-serif;
+        text-align: center;}
+
+     .name {
+    background-color: black;
+    color: lightgray;
+    margin-top: 0px 0px 15px 0px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;}
+
+        #name a {
+        font-family: 'Mukta', sans-serif;
+        text-decoration: none;}
+
+            #name a:hover {
+                background-color: lightgray;
+                color: #ffffff;
+                text-decoration: none;}
+
+   .vuelta {
+    text-decoration: none;
+    color: lightgray;
+    transition: all 0.3s linear;
+    }
+
+       h4 {
+        font-family: 'Mukta', sans-serif;
+    }
+
+    p, ul, li {
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    p {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    nav {background-color: black;
+        display: inline;
+        text-align: center;}
+
+        nav ul {list-style-type: none;
+            text-align: center;}
+
+        nav li {display: inline;
+            text-align: center;
+            margin: 0 50px 0 0;}
+
+            nav li a {
+                padding: 2px 7px 2px 7px;
+                color: grey;
+                background-color: black;
+                text-decoration: none;
+                transition: all 0.4s linear;
+                border-radius: 5px;
+            }
+
+                nav li a:hover {
+                    background-color: #333333;
+                    color: #ffffff;
+                }
+
+          #barra {
+               background-color: black;
+                 padding-bottom: 10px;}
+
+                   #barra li a {
+            text-decoration: none;
+            color: grey;}
+
+            #barra li a:hover {
+                background-color: #333333;
+                color: #ffffff;
+            }
+
+#Info {
+    background-color: lightgrey;
+    padding: 150px 0px 10px 10px;
+    text-align: left;
+    display: inline-block ;
+    height: 400px;
+    width: 300px;
+    box-sizing: border-box; 
+}
+
+          
+footer {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 15px;}
+    
+    #redes ul {list-style-type: none;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    #redes li {display: inline;
+        text-align: center;
+        margin: 0px 50px 0 0;}
+
+        #redes li a {
+            padding: 2px 20px 0px 20px;
+            color: grey;
+            background-color: black;
+            text-decoration: none;}
+
+            #redes li a:hover {
+                background-color: #333333;
+                color: #ffffff;
+                transition: all 0.4s linear;
+                border-radius: 5px;
+            }
+
+            #barra li a {text-decoration: none;
+        color: grey;}
+
+        #barra li a:hover {
+            background-color: #333333;
+            color: #ffffff;
+                    }
+        
+       #Contacto {        
+         margin: 0px 0px 0px 0px;
+         padding: 20px 0px 10px 20px;
+         background-color: lightgray;}
+
+         textarea {width: 500px; height: 150px;padding: 2px;}
+       
